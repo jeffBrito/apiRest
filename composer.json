@@ -1,0 +1,25 @@
+{
+    "name": "rest/app",
+    "description": "Desenvolvimento de API Rest",
+    "type": "mpdf",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jefferson Sabino",
+            "email": "jeffersoncbmtt@gmail.com"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\":"App"
+        },
+        "files": [
+            "config.php"
+        ]
+    },
+    "require": {}
+}
