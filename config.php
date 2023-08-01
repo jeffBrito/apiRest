@@ -1,7 +1,11 @@
 <?php
+require_once('vendor/autoload.php');
 
-    const DBDRIVER = 'driver';
-    const DBHOST = 'ip';
-    const DBNAME = 'nome do banco';
-    const DBUSER = 'usuario';
-    const DBPASS = 'senha';
+$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
+$dotenv->load();
+
+// const DBDRIVER = 'mysql';
+// const DBHOST = $_ENV['MYSQL_HOST'];
+// const DBNAME = $_ENV['MYSQL_DATABASE'];
+// const DBUSER = $_ENV['MYSQL_USER'];
+// const DBPASS = $_ENV['MYSQL_ROOT_PASSWORD'];
